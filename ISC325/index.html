@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Manchester United Museum Exhibition</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css"/>
+  <style>
+    .gallery-img {
+      height: 200px; 
+      width: 100%; 
+      object-fit: cover; 
+    }
+
+    .card {
+      height: 100%; 
+    }
+
+    .card-body {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+  </style>
+</head>
+
+<body>
+<body>
+<!-- Responsive Navbar -->
+<nav class="navbar navbar-expand-sm bg-light navbar-light">
+  <a class="navbar-brand" href="index.html">Home</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav ml-auto"> <!--ml = margin left ; mr = margin right-->
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="legends.html">Legends</a>
+        </li>
+     <li class="nav-item">
+          <a class="nav-link" href="timelines.html">Timelines</a>
+        </li> 
+        <li class="nav-item">
+          <a class="nav-link" href="Map.html">Map</a>
+        </li>  
+      </ul>
+    </div>  
+</nav>
+
+<!-- Hero Section -->
+<section class="hero-section">
+  <div class="container text-center">
+    <h1>Welcome to the Manchester United Museum Exhibition</h1>
+    <p>Discover the rich history and culture of one of the world's most famous football clubs.</p>
+  </div>
+</section>
+
+<!-- Gallery Section -->
+<section class="gallery-section">
+  <div class="container">
+    <h2 class="text-center">Museum Highlights</h2>
+    <div class="row">
+      <div class="col-md-4 d-flex align-items-stretch">
+        <div class="card">
+          <img class="card-img-top gallery-img" src="image1.jpg" alt="Highlight 1">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Legendary Players</h5>
+            <p class="card-text">Explore the legacy of Manchester United's legendary players.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 d-flex align-items-stretch">
+        <div class="card">
+          <img class="card-img-top gallery-img" src="image2.jpg" alt="Highlight 2">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Iconic Trophies</h5>
+            <p class="card-text">View the collection of iconic trophies won by the club over the years.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 d-flex align-items-stretch">
+        <div class="card">
+          <img class="card-img-top gallery-img" src="image3.jpg" alt="Highlight 3">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Historical Moments</h5>
+            <p class="card-text">Relive the most memorable moments in Manchester United's history.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center p-3">
+  <p>&copy; 2024 Manchester United Museum. All Rights Reserved.</p>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>
